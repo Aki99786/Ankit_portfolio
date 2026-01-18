@@ -1,9 +1,9 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
+import mock01 from '../assets/images/chatbot.png';
+import mock02 from '../assets/images/jd-cv.png';
+import mock05 from '../assets/images/qabot.png';
+import mock03 from '../assets/images/resume.png';
+import mock04 from '../assets/images/video-reco.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -52,7 +52,7 @@ function Project() {
 
                 <div className="project">
                     <a href="#" target="_blank" rel="noreferrer">
-                        <img src={mock04} className="zoom" alt="thumbnail" width="100%" />
+                        <img src={mock04} className="zoom" alt="thumbnail" width="80%" />
                     </a>
                     <h2>Video Recommendation System</h2>
                     <p>
@@ -64,7 +64,7 @@ function Project() {
 
                 <div className="project">
                     <a href="#" target="_blank" rel="noreferrer">
-                        <img src={mock05} className="zoom" alt="thumbnail" width="100%" />
+                        <img src={mock05} className="zoom" alt="thumbnail" width="80%" />
                     </a>
                     <h2>Compliance Document QA Bot</h2>
                     <p>
