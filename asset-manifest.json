@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Ankit_portfolio/static/css/main.cbe47e26.css",
+    "main.js": "/Ankit_portfolio/static/js/main.f0c006f3.js",
+    "static/js/453.b05d8aa5.chunk.js": "/Ankit_portfolio/static/js/453.b05d8aa5.chunk.js",
+    "static/media/bg-light.png": "/Ankit_portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/Ankit_portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/img.jpg": "/Ankit_portfolio/static/media/img.e60ec8731b676436db17.jpg",
+    "static/media/jd-cv.png": "/Ankit_portfolio/static/media/jd-cv.0133e7349ee7b4d963e6.png",
+    "static/media/chatbot.png": "/Ankit_portfolio/static/media/chatbot.bb7935a47856484a8a05.png",
+    "static/media/video-reco.png": "/Ankit_portfolio/static/media/video-reco.b0ec0e02359660209e05.png",
+    "static/media/resume.png": "/Ankit_portfolio/static/media/resume.f6b8579ee5ccd4beba66.png",
+    "static/media/qabot.png": "/Ankit_portfolio/static/media/qabot.1d5f1c4daea89661d15d.png",
+    "index.html": "/Ankit_portfolio/index.html",
+    "main.cbe47e26.css.map": "/Ankit_portfolio/static/css/main.cbe47e26.css.map",
+    "main.f0c006f3.js.map": "/Ankit_portfolio/static/js/main.f0c006f3.js.map",
+    "453.b05d8aa5.chunk.js.map": "/Ankit_portfolio/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbe47e26.css",
+    "static/js/main.f0c006f3.js"
+  ]
+}
