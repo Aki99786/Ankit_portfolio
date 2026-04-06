@@ -21,6 +21,11 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
 
+      - name: Inject API Key into JS bundle
+        run: |
+          # Search all JS files and replace the placeholder with the secret key securely
+          find ./static/js -type f -name "*.js" -exec sed -i "s/YOUR_WEB3FORMS_KEY/${{ secrets.WEB3FORMS_ACCESS_KEY }}/g" {} +
+
       - name: Sync static files to S3
         run: |
           aws s3 sync . s3://${{ secrets.S3_BUCKET }} \
